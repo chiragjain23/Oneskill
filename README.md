@@ -1,4 +1,5 @@
 Oneskill
-========
+=======
+This project has been developed in PHP and database used is MySQL.
+Javascript is used for validation.
 
-PHP Quiz, for judging a person's problem solving capability.
