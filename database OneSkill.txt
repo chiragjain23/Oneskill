@@ -1,0 +1,38 @@
+
+mysql> create database oneskill;
+
+
+mysql> use oneskill;
+
+
+mysql> create table solans(qno int PRIMARY KEY,answer varchar(40));
+
+
+mysql> create table team(teamname varchar(20) PRIMARY KEY,branch varchar(5),year int,password varchar(8));
+
+
+mysql> delimiter ;
+mysql> create table leaderboard(teamname varchar(20), start int DEFAULT 0,end int DEFAULT 0,diff int DEFAULT 0,Cques int DEFAULT 0,qno int DEFAULT 0);
+
+
+mysql> delimiter //
+mysql> create trigger insertt after insert on team
+    -> for each row
+    -> begin
+    -> insert into leaderboard values(new.teamname,0,0,0,0,0);
+    -> end;
+    -> //
+
+mysql> delimiter ;
+
+
+
+
+just start mysql using the command
+
+example: sudo /opt/lampp/lampp startmysql
+
+and find path of mysql , it will be placed in bin directory of lampp, then login
+
+example: /opt/lampp/bin/mysql -u root
+

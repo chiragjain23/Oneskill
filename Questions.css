@@ -1,0 +1,130 @@
+@charset "utf-8";
+@font-face {
+ font-family:"Buxton Sketch";
+	src: url('buxton_sketch.ttf');
+}
+@font-face 
+{
+font-family: BREAK;
+src : url('BREAK.TTF');
+}
+body {
+	background-image:url(images/autoit_matrix_wall_1920x1200.jpg);
+	min-width:960px;
+	min-height:768px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#000;
+	margin-left:150px;
+	margin-right:235px;
+	background-attachment:fixed;
+}
+
+#board { 
+	text-decoration:underline;
+	text-shadow:#FFF;
+	margin-left:10px;
+	font-size:30px;
+	color:#F30;
+	}
+#leaders {
+			font-family:'Buxton Sketch';
+			font-size:25px;
+}
+a { color:#FFF; }
+#name,#level {
+	font-family:'Buxton Sketch'; 
+	color:#000; 
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+font-family:"Buxton Sketch";
+font-size:24px;
+color:#FFF;
+
+}
+#leaderboard {
+	background-color:#000;
+	font-family:"Buxton Sketch";
+	opacity:0.7;
+	filter:alpha(opacity=0.7);
+	font-size:22px;
+	color:#FFF;
+	position:absolute;
+	border-color:#FFF;
+	width:180px;
+	border:solid #FFF medium;
+}
+#Questions {
+background-color:rgba(0,0,0,0.7);
+	font-family:"Buxton Sketch";
+	color:#FFF;
+	position:relative;
+	width:760px;
+	height:700px;
+	left:200px;
+	border:solid #FFF medium;
+}
+	#leaderQ {
+	width:inherit;
+	height:auto;
+	margin-top:10px;
+}
+.c {
+	padding-left:10px;
+}
+a:hover { color:#FF3;
+text-decoration:underline;
+}
+#change {
+	font-family: "Buxton Sketch";
+	color:#FFF;
+	font-size:25px;
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* 				Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+	padding:5px;
+	margin:2px;
+	position:relative;
+	top:-20px;
+	left:80px;
+}
+#c {
+	margin-top:50px;
+}
+form {
+	font-size:18px;
+}
+#links {
+
+	padding:2px;
+}
+#wname {
+	font-family:BREAK;
+	color:#FFF;
+	font-size:80px;
+	margin-left:300px; 
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:0px;
+    font-weight:bolder;
+}
+
+#user {
+	color:#FF0;
+	min-width:680px;
+	display:inline-block;
+}
+
+
+
